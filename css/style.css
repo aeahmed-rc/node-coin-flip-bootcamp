@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+}
+button{
+  color:blue;
+  margin-bottom: 15px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+body{
+  text-align: center;
+  background-image: url('/quarterhead.jpg');
+}
+section{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+/* .coin{
+animation-name: flip;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+
+  border:2px solid black;
+  border-radius: 50px;
+  width:10%;
+  height: 100px;
+  background-color: red;
+
+} */
+/* @keyframes flip{
+  100%{
+    transform: rotate3d(0, 1, 0, 1080deg);
+
+  }
+
+} */
