@@ -3,6 +3,7 @@ let head=document.querySelector('#Head')
 let btn=document.querySelectorAll('button')
 let headImage=document.querySelector('#headImage')
 let section=document.querySelector('section')
+let display=document.querySelector('h2')
 
 
 let result=''
@@ -33,17 +34,20 @@ function flip(random){
   if(random===0){
     result="Head"
     let createTextNode=document.createTextNode(result)
-    section.appendChild(createTextNode)
+    display.appendChild(createTextNode)
     console.log(result)
+
 
   }else if(random===1){
 result='Tail'
 let createTextNode=document.createTextNode(result)
-section.appendChild(createTextNode)
+display.appendChild(createTextNode)
 console.log(result)
 
 
+
   }
+  display=""
 
   return result
 }
